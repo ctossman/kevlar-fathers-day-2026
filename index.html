@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#101014" />
+    <meta
+      name="description"
+      content="A Father's Day page for Kevlar from Collin."
+    />
+    <meta property="og:title" content="Happy Father's Day, Kevlar" />
+    <meta
+      property="og:description"
+      content="Warehouse-tested. Beach-approved. Alt-dad certified."
+    />
+    <meta property="og:image" content="assets/kevlar-beach-dad.png" />
+    <meta property="og:type" content="website" />
+    <title>Happy Father's Day, Kevlar</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="tideCanvas" aria-hidden="true"></canvas>
+
+    <main class="page-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <p class="kicker">1975 original issue</p>
+        <h1 id="page-title">Happy Father's Day, Kevlar</h1>
+        <p class="lede">
+          Warehouse-tested, beach-approved, emotionally dressed for a small venue show.
+        </p>
+      </section>
+
+      <section class="meme-wrap" aria-label="Father's Day meme">
+        <article class="meme-card">
+          <p class="meme-text top">
+            When you survive 3 kids, Florida humidity, and warehouse shifts...
+          </p>
+          <picture>
+            <source srcset="assets/kevlar-beach-dad.webp" type="image/webp" />
+            <img
+              src="assets/kevlar-beach-dad.png"
+              alt="Illustration of a cool alt dad in black clothes sitting on a beach chair at sunset with parcel boxes nearby."
+              width="1344"
+              height="1536"
+            />
+          </picture>
+          <p class="meme-text bottom">Kevlar: dad lore, but make it coastal emo.</p>
+        </article>
+      </section>
+
+      <section class="stats" aria-label="Kevlar facts">
+        <div class="stat">
+          <span class="stat-value">3</span>
+          <span class="stat-label">kids raised</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">25 / 28 / 30</span>
+          <span class="stat-label">current chaos levels</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">321</span>
+          <span class="stat-label">Satellite Beach mode</span>
+        </div>
+      </section>
+
+      <section class="message" aria-label="Father's Day message">
+        <p>
+          Kevlar, you are somehow part beach legend, part warehouse endurance athlete,
+          part alt dad side quest, and still the guy we are lucky to call Dad.
+        </p>
+        <p>
+          Thanks for carrying boxes, carrying jokes, carrying the family group chat,
+          and occasionally carrying the entire vibe.
+        </p>
+        <p class="signature">From: Collin</p>
+      </section>
+
+      <section class="buttons" aria-label="Share">
+        <button id="shareButton" type="button" class="icon-button">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M4 12v8h16v-8" />
+            <path d="M12 16V4" />
+            <path d="m7 9 5-5 5 5" />
+          </svg>
+          <span>Send it</span>
+        </button>
+        <button id="confettiButton" type="button" class="icon-button secondary">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="m4 20 16-16" />
+            <path d="M5 10h4V6" />
+            <path d="M14 19h4v-4" />
+            <path d="M13 5h2" />
+            <path d="M19 9h1" />
+            <path d="M4 15h1" />
+          </svg>
+          <span>Dad aura</span>
+        </button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
