@@ -71,7 +71,7 @@ function createBurst(originX, originY) {
 async function sharePage() {
   const shareData = {
     title: "Happy Father's Day, Kevlar",
-    text: "Happy Father's Day, Kevlar. Love, Collin.",
+    text: "you a pretty cool dad",
     url: window.location.href,
   };
 
